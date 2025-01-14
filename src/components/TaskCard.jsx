@@ -1,4 +1,3 @@
-// src/components/TaskCard.js
 import { useDrag } from "react-dnd";
 
 export const TaskCard = ({ task, onRemove }) => {

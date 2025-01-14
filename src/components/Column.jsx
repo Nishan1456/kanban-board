@@ -1,4 +1,3 @@
-// src/components/Column.js
 import { useDrop } from "react-dnd";
 import { TaskCard } from "./TaskCard";
 

@@ -1,4 +1,3 @@
-// src/components/KanbanBoard.js
 import { useState, useEffect } from "react";
 import { Column } from "./Column";
 
@@ -46,7 +45,7 @@ export const KanbanBoard = () => {
     setRedoStack([]); // Clear redo stack on new action
   };
 
-  // Undo functionality
+  // Undo
   const undo = () => {
     if (history.length > 0) {
       const previousState = history[history.length - 1];
@@ -57,7 +56,7 @@ export const KanbanBoard = () => {
     }
   };
 
-  // Redo functionality
+  // Redo
   const redo = () => {
     if (redoStack.length > 0) {
       const nextState = redoStack[redoStack.length - 1];

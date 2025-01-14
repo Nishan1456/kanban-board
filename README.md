@@ -1,8 +1,17 @@
-# React + Vite
+Task A
+I have used html , css and javascript to create this project as you mentioned in the document. It has three files index.html, index.css and index.js.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Github Link: https://github.com/Nishan1456/swipe-post
 
-Currently, two official plugins are available:
+Vercel Demo: https://swipe-post.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Task B
+I have used Vite React to create this project. It has components such as:
+Column.jsx=> It contains the column section after creation.
+TaskCard.jsx=> It contains the taskcard section.
+KanbanBoard.jsx=> It contains all the taskcard creation, column creation . It is the main section.
+App.jsx=> It initializes the project.
+
+Github Link: https://github.com/Nishan1456/kanban-board
+
+Vercel Demo: https://kanban-board-chi-one.vercel.app/
